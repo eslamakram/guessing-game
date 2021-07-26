@@ -1,16 +1,15 @@
 'use strict';
-let userInformation = ['Eslam', 'Jordan', 'Two', 'apple','Turkey'];
 
-let q1= prompt("Do you search about Eslam?y/n").toLocaleLowerCase();
-let q2= prompt("Do you know that Eslam lives in Jordan?y/n").toLocaleLowerCase();
-let q3= prompt("Do you Know that Eslam has Two Girls?y/n").toLocaleLowerCase();
-let q4= prompt("Do you know that Eslam loves apple?y/n").toLocaleLowerCase();
-let q5= prompt("Do you know that places she would like to visit it?y/n").toLocaleLowerCase();
+let q1= prompt("Did you know that Our eyes can detect sound?y/n").toLocaleLowerCase();
+let q2= prompt("Are Our eyes the same size from birth?y/n").toLocaleLowerCase();//yes the same
+let q3= prompt("Is Fingernails grow faster than toenails?y/n").toLocaleLowerCase();//yes it is grow nearly 4 times than toenails
+let q4= prompt("Is the Amazon rain forest produces half the world’s oxygen supply?y/n").toLocaleLowerCase();//yes
+let q5= prompt("Is Cabir.A the first cell phone virus?y/n").toLocaleLowerCase();//yes it is in 2004
 
 
 let questions =[q1,q2,q3,q4,q5];
 
-for (i=0;i<= questions.length;i++){
+for (i=0;i<5;i++){
 switch(questions(i)) {
     case 'y':
        console.log('yes, your answer is right!');
