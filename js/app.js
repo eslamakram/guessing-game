@@ -81,7 +81,7 @@ if (q5 == 'y' || q5 == 'yes') {
 console.log(`final score is ${finalScore}`);
 
 // 6th question 
-let holdingNumber= 50;
+let holdingNumber= Math.floor((Math.random() * 100) + 1);
 let guessingNumber= prompt("let's have fun! i have a number in my mind,Could you guess it?");
 
 let attempts;
