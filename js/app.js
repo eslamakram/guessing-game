@@ -107,14 +107,14 @@ let myFavPlaces =['turkey','spain','palestine'];
 let guessingPlace= prompt("Having fun! Could you guess one of my favorite place that want to visit?");
 
 let opportunities;
-for (opportunities = 1; opportunities < 6; opportunities++){
+outerLoop: for (opportunities = 1; opportunities < 6; opportunities++){
   for(let i = 0 ; i < myFavPlaces.length ; i++){ 
     console.log(myFavPlaces[i]);
     if (guessingPlace == myFavPlaces[i]){
     finalScore++;
     console.log('yes, your answer is right!');
       alert(`yes, your answer is right! ${myFavPlaces[i]}`);
-    break;}
+    break outerLoop;}
       
   } // end of array loop
  
