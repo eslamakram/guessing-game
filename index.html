@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guessing Game</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
     <header>
+      <h1>About Me!</h1>
         <nav>
             <ul>
 		
@@ -23,47 +26,42 @@
         
         <!-- Introction myself -->   
 <section> 
-    <img src="./img/EslamProfilePic.jpg" width="250px" height="300" alt="Eslam Picture"> </img>
-  <p style="color: blueviolet; font-size: medium;font-family: 'Courier New', Courier, monospace;" > 
+    <img src="./img/EslamProfilePic.jpg" width="250px" height="300" alt="Eslam Picture" class="imgSize" id="profilePic"> </img>
+  <p style="color: blueviolet; font-size: medium;font-family: 'Courier New', Courier, monospace;" id="introdctionSelf" > 
     Islam Tweikat is an computer engineer. She has a Master's of Computer Information System and 
     a Bachelor's of computer engineering. she had worked as a customer service teller in Alawneh Exchange.
     Then had worked as an ICT teacher. Online-Teaching had been her favorite type of teaching so far! 
     Recently, she goes to another field that she love it and have a passion with programming like JavaScript, CSS, HTML, Android.
-    so i want to thank and approciate ASAC'S members to give us this chance! </p>
-<strong>Education:</strong>
-<ul>
-  <li> Bachelor's of computer engineering 2014 (University of Jordan)</li>
-  <li> Master's of Computer Information System 2019 (University of Jordan)</li>
-</ul>
-<strong>Experiance:</strong>
-<ul>
-  <li> Trainee in CSS-Amman :  June 2013 - August 2013 </li>
-  <li> Trainee in NITC-Amman : Sep 2014 - March 2015</li>
-  <li> Trainee in MEMR-Amman : April 2015 - Sep 2015</li> 
-  <li> Teller customer service in Alawneh Exchange : Oct 2015 - May 2019 </li>
-  <li> Teacher ICT at Tazkeya International Academy-Amman :  June 2020- June 2021</li>
-  <li> Trainee ASAC in LTUC-Amman : July 2021 - now </li>
-</ul>
-
-  </section>
+    so i want to thank and approciate ASAC'S members to give us this chance! You can find my resume on her <a href="https://www.linkedin.com/in/eslam-akram/">LinkedIn</a> page.
+  </p>
+      </section>
   
   <section> 
-    <img src="data:image/jpeg;base64,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" width="250px" height="300" alt="place"> </img>
-  <p style="color: blueviolet; font-size: medium;font-family: 'Courier New', Courier, monospace;" > 
+     <p style="color: blueviolet; font-size: medium;font-family: 'Courier New', Courier, monospace;" > 
      she lives in Fuhais-Mahis in Jordan with her husband, Two little girls; Tolay & Wateen! </p>
+      <img src="./img/tolay.jpg" alt="" class="imgSize">
+      <img src="./img/wateen.jpg" alt="" class="imgSize">
   </section>
-
-  <section>
-      <img src="./img/tolay.jpg" alt="">
-      <img src="./img/wateen.jpg" alt="">
-  </section>
-  <section>
-      <p style="color: blueviolet; font-size: medium;font-family: 'Courier New', Courier, monospace;" >
-        You can find my resume on her <a href="https://www.linkedin.com/in/eslam-akram/">LinkedIn</a> page.
-    </p>
-  </section>
-<section>
-<img src="./img/TOPTEN.png" width="250px" height="300" alt="TOPTEN"> </img>
+  
+  <span id="eduSpan">
+    <strong>Education:</strong>
+    <ul class="edtList">
+      <li> Bachelor's of computer engineering 2014 (University of Jordan)</li>
+      <li> Master's of Computer Information System 2019 (University of Jordan)</li>
+    </ul>
+    <strong>Experiance:</strong>
+    <ul class="edtList">
+      <li> Trainee in CSS-Amman :  June 2013 - August 2013 </li>
+      <li> Trainee in NITC-Amman : Sep 2014 - March 2015</li>
+      <li> Trainee in MEMR-Amman : April 2015 - Sep 2015</li> 
+      <li> Teller customer service in Alawneh Exchange : Oct 2015 - May 2019 </li>
+      <li> Teacher ICT at Tazkeya International Academy-Amman :  June 2020- June 2021</li>
+      <li> Trainee ASAC in LTUC-Amman : July 2021 - now </li>
+    </ul>
+    </span>
+  
+<section id="TopTenSec">
+<img src="./img/TOPTEN.png" width="250px" height="300" alt="TOPTEN" class="imgSize"> </img>
   <p style="color: rgb(58, 8, 105); font-size: medium;font-family: 'Courier New', Courier, monospace;" > 
      TOP TEN Favorite Books </p>
   <ol>
@@ -81,9 +79,13 @@
 </section>
 
     </main>
-    <footer></footer>
+    <footer>
+      &copy; Eslam Tweikat 2021
 
-    <script src="./js/app.js"></script>
-    
-</body>
+    </footer>
+
+  <!-- <script src="./js/app.js"></script> -->
+    </body>
+
+
 </html>

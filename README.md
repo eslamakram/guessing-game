@@ -26,3 +26,6 @@ we refactored the code with function to be Clean and DRY:
 
 1. added function for each question
 2. minimize the code by using array (question, correctAnswer,responseAnswer)
+
+29 JULY 2021
+i worked on style.css file to also linked to html page
