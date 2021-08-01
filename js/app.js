@@ -30,7 +30,7 @@ function askUser(questions, responseAnswers, correctAnswers) {
       alert('no, your answer is incorrect!'); 
     
     }
-    console.log(`finalScore ${finalScore}`);
+//console.log(`finalScore ${finalScore}`);
 
   } // end of for loop 
 
@@ -46,7 +46,6 @@ let attempts;
 for (attempts=1; attempts < 4; attempts++){
   if (guessingNumber == holdingNumber) {
     finalScore++;
-    console.log('yes, your answer is right!');
       alert("yes, your answer is right!");
       break;
       } else if (guessingNumber > holdingNumber) {
@@ -56,7 +55,6 @@ for (attempts=1; attempts < 4; attempts++){
         alert("It's too low!");
         guessingNumber= prompt("let's have fun! i have a number in my mind,Could you guess it?");      }
 } //end for loop for 4 attempts
-console.log(`the final score is ${finalScore}`) 
 } // end of guessingNumberGame()
 
 function guessingPlaceGame(){
@@ -66,10 +64,8 @@ let guessingPlace= prompt("Having fun! Could you guess one of my favorite place 
 let opportunities;
 outerLoop: for (opportunities = 1; opportunities < 6; opportunities++){
   for(let i = 0 ; i < myFavPlaces.length ; i++){ 
-    console.log(myFavPlaces[i]);
     if (guessingPlace == myFavPlaces[i]){
     finalScore++;
-    console.log('yes, your answer is right!');
       alert(`yes, your answer is right! ${myFavPlaces[i]}`);
     break outerLoop;}
         } // end of array loop
